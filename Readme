@@ -1,0 +1,30 @@
+Spring boot app starts with main method in App.java
+
+How to run spring boot app 
+	right click on App.java --> Run as --> java applications
+
+Testing rest endpoints in clients like postman
+GET request
+	open postman and select GET request 
+	enter url and click on SEND
+	See output in the response BODY
+POST request
+	open postman and select GET request 
+	enter url
+	click on Headers and enter key and value as below for json input
+		key: content-type
+		value: application/json
+	click on Body button 
+		choose "raw" radio button 
+		choose JSON (application/json) in drop down in same raw right side.
+		enter json data in request body
+	click on SEND
+	See output in the response BODY
+
+Next steps
+1.first understand LoginAppSpringMVC
+2.annotations
+3.depency injection 
+4.what is springboot
+5.rest webservices
+6.implement delete and update functions.
